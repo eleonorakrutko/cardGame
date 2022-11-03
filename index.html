@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="modal">
+        <button id="close">close</button>
+        <div id="modalContent"></div>
+    </div>
+
+    <div class="wrapperTime">
+        <p>Time</p>
+        <div id="time"></div>
+    </div>
+    
+    <div class="wrapper">
+        <button id="restartGame">RESTART GAME</button>
+
+        <div id="chooseLevel">
+            <button class="level" id="light">Легкий</button>
+            <button class="level" id="medium">Средний</button>
+            <button class="level" id="hard">Сложный</button>
+        </div>
+        
+        <div id="wrapperCards"></div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
